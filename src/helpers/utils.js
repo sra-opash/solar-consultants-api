@@ -273,10 +273,10 @@ const getIcalObjectInstance = async (
   email
 ) => {
   const cal = ical({
-    domain: "healing.tube",
+    domain: "solarconsulting.tube",
     name: "Appointments Reminder",
   });
-  //   cal.domain("healing.tube");
+  //   cal.domain("solarconsulting.tube");
   cal.createEvent({
     start: starttime, // eg : moment()
     end: moment(starttime).add(30, "min"),
